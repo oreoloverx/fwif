@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import TG from "./assets/TG.svg"
+import TW from "./assets/TW.svg"
+import bill from "./assets/bill.png"
+import taco from "./assets/taco.png"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="section1">
+        <h1 className="heading1">
+          FRANKLIN WIF HAT
+        </h1>
+        <img src={bill} className="bill" alt="wif"/>
+        <h2 className="heading2">
+          WITH $FWIF YOU GET FREE TACOS
+        </h2>
+        <img alt="taco" className="taco" src={taco}/>
+        <div className="socialBlock">
+          <a href="https://google.com/" target="_blank" rel="nopener noreferrer"><img className="social" src={TG} alt="TG" /></a>
+          <a href="https://google.com/" target="_blank" rel="nopener noreferrer"><img className="social" src={TW} alt="TW" /></a>
+        </div>
+      </div>
     </div>
   );
 }
