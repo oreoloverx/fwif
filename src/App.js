@@ -18,8 +18,8 @@ function App() {
         </h2>
         <img alt="taco" className="taco" src={taco}/>
         <div className="socialBlock">
-          <a href="https://google.com/" target="_blank" rel="nopener noreferrer"><img className="social" src={TG} alt="TG" /></a>
-          <a href="https://google.com/" target="_blank" rel="nopener noreferrer"><img className="social" src={TW} alt="TW" /></a>
+          <a href="https://t.me/fwifsol" target="_blank" rel="nopener noreferrer"><img className="social" src={TG} alt="TG" /></a>
+          <a href="https://twitter.com/fwifsol" target="_blank" rel="nopener noreferrer"><img className="social" src={TW} alt="TW" /></a>
         </div>
       </div>
     </div>
